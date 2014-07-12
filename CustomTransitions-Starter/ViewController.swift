@@ -8,8 +8,27 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class ViewController: UITableViewController, UIViewControllerTransitioningDelegate {
+  
+  var gravityCollisionAnmiator: GravityCollisionAnimator!
 
+  init(coder aDecoder: NSCoder!) {
+    super.init(coder: aDecoder)
+    gravityCollisionAnmiator = GravityCollisionAnimator()
+  }
+  
+  override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+    if (segue.identifier == "ShowRed") {
+      let destinationVC = segue.destinationViewController as UIViewController
+      destinationVC.transitioningDelegate = self
+    }
+  }
+  
+  func animationControllerForPresentedController(presented: UIViewController!, presentingController presenting: UIViewController!, sourceController source: UIViewController!) -> UIViewControllerAnimatedTransitioning! {
+    return gravityCollisionAnmiator
+  }
+  
+  
 
 }
 
