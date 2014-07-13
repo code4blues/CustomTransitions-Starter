@@ -10,6 +10,6 @@ import UIKit
 
 class RedViewController: UIViewController {
   @IBAction func dismiss(_: AnyObject) {
-    presentingViewController.dismissModalViewControllerAnimated(true)
+    presentingViewController.dismissViewControllerAnimated(true, completion: nil)
   }
 }

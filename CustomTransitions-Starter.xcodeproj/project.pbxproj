@@ -12,6 +12,7 @@
 		4F0D109E196CA94E006152FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D109C196CA94E006152FD /* Main.storyboard */; };
 		4F0D10A0196CA94E006152FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D109F196CA94E006152FD /* Images.xcassets */; };
 		4F0D10AC196CA94F006152FD /* CustomTransitions_StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D10AB196CA94F006152FD /* CustomTransitions_StarterTests.swift */; };
+		4F894C0E196F4DD7009405EB /* GravityCollisionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F894C0D196F4DD7009405EB /* GravityCollisionAnimator.swift */; };
 		4FC3449A196CADAC006F8F5B /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC34499196CADAC006F8F5B /* RedViewController.swift */; };
 		4FC3449C196DF98A006F8F5B /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3449B196DF98A006F8F5B /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		4F0D10A5196CA94F006152FD /* CustomTransitions-StarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomTransitions-StarterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0D10AA196CA94F006152FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0D10AB196CA94F006152FD /* CustomTransitions_StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitions_StarterTests.swift; sourceTree = "<group>"; };
+		4F894C0D196F4DD7009405EB /* GravityCollisionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityCollisionAnimator.swift; sourceTree = "<group>"; };
 		4FC34499196CADAC006F8F5B /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		4FC3449B196DF98A006F8F5B /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				4F0D1098196CA94E006152FD /* AppDelegate.swift */,
 				4FC3449B196DF98A006F8F5B /* GreenViewController.swift */,
 				4F0D109A196CA94E006152FD /* ViewController.swift */,
+				4F894C0D196F4DD7009405EB /* GravityCollisionAnimator.swift */,
 				4F0D109C196CA94E006152FD /* Main.storyboard */,
 				4FC34499196CADAC006F8F5B /* RedViewController.swift */,
 				4F0D109F196CA94E006152FD /* Images.xcassets */,
@@ -216,6 +219,7 @@
 			files = (
 				4FC3449C196DF98A006F8F5B /* GreenViewController.swift in Sources */,
 				4F0D109B196CA94E006152FD /* ViewController.swift in Sources */,
+				4F894C0E196F4DD7009405EB /* GravityCollisionAnimator.swift in Sources */,
 				4FC3449A196CADAC006F8F5B /* RedViewController.swift in Sources */,
 				4F0D1099196CA94E006152FD /* AppDelegate.swift in Sources */,
 			);
